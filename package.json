@@ -6,6 +6,7 @@
     "author": "Baal <admin@baal.xyz>",
     "dependencies": {
         "gatsby": "^2.24.67",
+        "gatsby-cli": "^2.12.102",
         "gatsby-theme-catalyst-helium": "^2.2.3",
         "react": "^16.13.1",
         "react-dom": "^16.13.1"

@@ -28,12 +28,12 @@ module.exports = {
             },
             {
                 name: `Github`,
-                link: `https://www.github.com/ehowey`,
+                link: `https://www.github.com/teemteem`,
                 location: `all`, //Options are "all", "header", "footer"
             },
             {
                 name: `Twitter`,
-                link: `https://www.twitter.com/erchwy`,
+                link: `https://www.twitter.com/teemteem`,
                 location: `all`, //Options are "all", "header", "footer"
             },
         ],
