@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         title: `বালের ব্লগ`,
-        description: `Speed up your Gatsby development workflow.`,
+        description: `এক কথায় এটি একটি বালের ওয়েবসাইট.`,
         keywords: [`gatsby`, `theme`, `react`, `blog`],
         author: `বালের অ্যাডমিন`,
         siteUrl: `https://baal.xyz`, //Change to you site address, required for sitemap.xml and robots.txt file among other things
