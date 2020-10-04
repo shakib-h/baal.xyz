@@ -11,7 +11,7 @@ module.exports = {
                 type: `internal`, //internal or anchor
             },
             {
-                name: `কি জানি`,
+                name: `কি জানি বাল`,
                 link: `/work`,
                 type: `internal`, //internal or anchor
             },
