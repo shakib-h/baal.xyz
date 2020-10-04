@@ -1,0 +1,38 @@
+{
+    "name": "baal-xyz",
+    "description": "This is the Baal'er Website",
+    "version": "2.2.3",
+    "private": true,
+    "author": "Baal <admin@baal.xyz>",
+    "dependencies": {
+        "gatsby": "^2.24.67",
+        "gatsby-theme-catalyst-helium": "^2.2.3",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    },
+    "devDependencies": {
+        "prettier": "^2.1.2"
+    },
+    "keywords": [
+        "gatsby",
+        "gatsby-starter",
+        "gatsby-plugin"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "build": "gatsby build",
+        "develop": "gatsby develop",
+        "clean": "gatsby clean",
+        "format": "prettier --write src/**/*.{js,jsx}",
+        "start": "npm run develop",
+        "serve": "gatsby serve",
+        "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ehowey/gatsby-starter-catalyst-blog"
+    },
+    "bugs": {
+        "url": "https://github.com/ehowey/gatsby-starter-catalyst-blog/issues"
+    }
+}
