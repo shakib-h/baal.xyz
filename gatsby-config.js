@@ -67,7 +67,7 @@ module.exports = {
         {
             resolve: `gatsby-theme-catalyst-blog`,
             options: {
-                postListTitle: `বালের পোস্টসমূহ`,
+                postListTitle: `হোমপেজ`,
             },
         },
     ],
