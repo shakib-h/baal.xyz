@@ -13,7 +13,6 @@ collections:
     create: true
     extension: mdx
     format: frontmatter
-    identifier_field: name
     fields:
       - { name: title, label: Title }
       - { name: subTitle, label: Sub Title }
@@ -33,8 +32,6 @@ collections:
     create: true
     extension: mdx
     format: frontmatter
-    identifier_field: name
     fields:
       - { name: title, label: Title }
-      - {name: slug, label: Slug, required: true, widget: string, pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$','A slug can have no spaces or special characters']}
       - { name: body, label: Body, widget: markdown, default: '<SEO title="" description=""/>' }
