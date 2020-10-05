@@ -35,7 +35,6 @@ collections:
     format: frontmatter
     identifier_field: name
     fields:
-      - { name: path, label: Path }
       - { name: title, label: Title }
-      - { name: draft, label: Draft, widget: boolean, default: true }
-      - { name: body, label: Body, widget: markdown }
+      - {name: slug, label: Slug, required: true, widget: string, pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$','A slug can have no spaces or special characters']}
+      - { name: body, label: Body, widget: markdown, default: '<SEO title="" description=""/>' }
