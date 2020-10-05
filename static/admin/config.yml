@@ -20,8 +20,8 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: author, label: Author }
       - { name: authorLink, label: Author Link }
-      - { name: categories, label: Categories }
+      - { name: categories, label: Categories, widget: List }
       - { name: featuredImage, label: Featured Image, widget: image }
       - { name: featuredImageCaption, label: Featured Image Caption }
       - { name: draft, label: Draft, widget: boolean }
-      - { name: body, label: Body, widget: mdx }
+      - { name: body, label: Body, widget: markdown }
