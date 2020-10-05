@@ -40,6 +40,8 @@ module.exports = {
     },
     plugins: [
         `gatsby-plugin-netlify`,
+        `gatsby-plugin-netlify-cms`,
+        `netlify-cms-app`,
         {
             resolve: `gatsby-theme-catalyst-helium`,
             options: {
@@ -57,8 +59,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `gatsby-starter-catalyst`,
-                short_name: `catalyst`,
+                name: `বালের ব্লগ`,
+                short_name: `বালের ব্লগ`,
                 start_url: `/`,
                 background_color: `#ffffff`,
                 theme_color: `#000000`,

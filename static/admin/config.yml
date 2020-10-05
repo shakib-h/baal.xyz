@@ -1,0 +1,27 @@
+backend:
+  name: github
+  repo: trojanshakib/baal.xyz
+  local_backend: true
+
+media_folder: content/assets
+public_folder: assets
+
+collections:
+  - name: post
+    label: Post
+    folder: content/posts
+    create: true
+    extension: mdx
+    format: frontmatter
+    fields:
+      - { name: path, label: Path }
+      - { name: title, label: Title }
+      - { name: subTitle, label: Sub Title }
+      - { name: date, label: Date, widget: date }
+      - { name: author, label: Author }
+      - { name: authorLink, label: Author Link }
+      - { name: categories, label: Categories }
+      - { name: featuredImage, label: Featured Image, widget: image }
+      - { name: featuredImageCaption, label: Featured Image Caption }
+      - { name: draft, label: Draft, widget: boolean }
+      - { name: body, label: Body, widget: mdx }
