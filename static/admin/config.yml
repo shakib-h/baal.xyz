@@ -20,8 +20,9 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: author, label: Author }
       - { name: authorLink, label: Author Link }
-      - { name: categories, label: Categories, widget: List, default: ["বালছাল"] }
+      - { name: categories, label: Categories, widget: list }
       - { name: featuredImage, label: Featured Image, widget: image }
       - { name: featuredImageCaption, label: Featured Image Caption }
+      - { name: socialImage, label: Social Image, widget: image }
       - { name: draft, label: Draft, widget: boolean }
       - { name: body, label: Body, widget: markdown }
