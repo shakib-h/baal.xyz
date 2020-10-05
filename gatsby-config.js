@@ -38,7 +38,9 @@ module.exports = {
             },
         ],
     },
-    plugins: [{
+    plugins: [
+        `gatsby-plugin-netlify`,
+        {
             resolve: `gatsby-theme-catalyst-helium`,
             options: {
                 // Core theme
