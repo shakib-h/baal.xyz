@@ -24,5 +24,18 @@ collections:
       - { name: featuredImage, label: Featured Image, widget: image }
       - { name: featuredImageCaption, label: Featured Image Caption }
       - { name: socialImage, label: Social Image, widget: image }
-      - { name: draft, label: Draft, widget: boolean }
+      - { name: draft, label: Draft, widget: boolean, default: true }
+      - { name: body, label: Body, widget: markdown }
+      
+  - name: page
+    label: Page
+    folder: content/pages
+    create: true
+    extension: mdx
+    format: frontmatter
+    identifier_field: name
+    fields:
+      - { name: path, label: Path }
+      - { name: title, label: Title }
+      - { name: draft, label: Draft, widget: boolean, default: true }
       - { name: body, label: Body, widget: markdown }
