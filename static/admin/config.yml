@@ -13,14 +13,14 @@ collections:
     create: true
     extension: mdx
     format: frontmatter
+    identifier_field: name
     fields:
-      - { name: path, label: Path }
       - { name: title, label: Title }
       - { name: subTitle, label: Sub Title }
       - { name: date, label: Date, widget: date }
       - { name: author, label: Author }
       - { name: authorLink, label: Author Link }
-      - { name: categories, label: Categories, widget: List }
+      - { name: categories, label: Categories, widget: List, default: [""] }
       - { name: featuredImage, label: Featured Image, widget: image }
       - { name: featuredImageCaption, label: Featured Image Caption }
       - { name: draft, label: Draft, widget: boolean }
