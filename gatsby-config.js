@@ -22,6 +22,11 @@ module.exports = {
                 location: `all`, //Options are "all", "header", "footer"
             },
             {
+                name: `Instagram`,
+                link: `https://www.instagram.com/baal.xyz`,
+                location: `all`, //Options are "all", "header", "footer"
+            },
+            {
                 name: `Twitter`,
                 link: `https://www.twitter.com/baal.xyz`,
                 location: `all`, //Options are "all", "header", "footer"
