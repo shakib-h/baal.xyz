@@ -10,7 +10,7 @@ collections:
   - name: post
     label: Post
     folder: content/posts
-    slug: {{url}}
+    slug: "{{url}}"
     create: true
     extension: mdx
     format: frontmatter
