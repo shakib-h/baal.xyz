@@ -7,6 +7,7 @@ import Img from "gatsby-image"
 import PostFooter from "./post-footer"
 import { FaRegClock } from "react-icons/fa"
 import kebabCase from "lodash/kebabCase"
+const toBengaliNum = require('number-to-bengali');
 
 const Post = ({ data: { post }, previous, next }) => (
   <Layout>
@@ -153,13 +154,14 @@ const Post = ({ data: { post }, previous, next }) => (
           display: "block",
         }}
       >
-        <FaRegClock
-          sx={{
-            position: "relative",
-            top: "0.125em",
-          }}
-        />{" "}
-        {post.timeToRead} Min
+        {post.timeToRead!==null &&
+                      <FaRegClock
+                        sx={{
+                          position: "relative",
+                          top: "0.125em",
+                        }}
+                      />}{" "}
+        {post.timeToRead!==null && (toBengaliNum(post.timeToRead)+ " মিনিট")}
       </span>
       <MDXRenderer>{post.body}</MDXRenderer>
     </article>

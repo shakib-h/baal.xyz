@@ -197,13 +197,14 @@ const PostsList = ({ posts }) => {
                       }}
                     >
                       {post.date} &mdash;{" "}
+                      {post.timeToRead!==null &&
                       <FaRegClock
                         sx={{
                           position: "relative",
                           top: "0.125em",
                         }}
-                      />{" "}
-                      {toBengaliNum(post.timeToRead)} মিনিট
+                      />}{" "}
+                      {post.timeToRead!==null && (toBengaliNum(post.timeToRead)+ " মিনিট")}
                     </Styled.p>
                     <Styled.p
                       sx={{
