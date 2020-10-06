@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
         title: `বালের ব্লগ`,
         description: `এক কথায় এটি একটি বালের ওয়েবসাইট.`,
-        keywords: [`gatsby`, `theme`, `react`, `blog`],
+        keywords: [`বাল`, `ব্লগ`, `বালের ব্লগ`, `বালছাল`],
         author: `বালের অ্যাডমিন`,
         siteUrl: `https://baal.xyz`, //Change to you site address, required for sitemap.xml and robots.txt file among other things
         menuLinks: [{
@@ -23,17 +23,17 @@ module.exports = {
         ],
         socialLinks: [{
                 name: `Email`,
-                link: `admin@baal.xyz`,
+                link: `ki@baal.xyz`,
                 location: `footer`, //Options are "all", "header", "footer"
             },
             {
-                name: `Github`,
-                link: `https://www.github.com/teemteem`,
+                name: `Facebook`,
+                link: `https://www.facebook.com/baal.xyz`,
                 location: `all`, //Options are "all", "header", "footer"
             },
             {
                 name: `Twitter`,
-                link: `https://www.twitter.com/teemteem`,
+                link: `https://www.twitter.com/baal.xyz`,
                 location: `all`, //Options are "all", "header", "footer"
             },
         ],
@@ -62,16 +62,17 @@ module.exports = {
                 name: `বালের ব্লগ`,
                 short_name: `বালের ব্লগ`,
                 start_url: `/`,
-                background_color: `#ffffff`,
-                theme_color: `#000000`,
+                background_color: `#363636`,
+                theme_color: `#80d8ff`,
                 display: `minimal-ui`,
-                icon: `content/assets/catalyst-site-icon.png`, // This path is relative to the root of the site.
+                icon: `content/assets/site-icon.png`, // This path is relative to the root of the site.
             },
         },
         {
             resolve: `gatsby-theme-catalyst-blog`,
             options: {
                 postListTitle: `বালের পোস্ট`,
+                useColorMode: `dark`,
             },
         },
     ],

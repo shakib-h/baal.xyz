@@ -43,7 +43,7 @@ const PostFooter = ({ previous, next }) => (
                 textAlign: "right",
               }}
             >
-              <Styled.h5>পরবর্তী পোস্ট &rarr;</Styled.h5>
+              <Styled.h5>পরের পোস্ট &rarr;</Styled.h5>
               <Styled.a as={Link} to={next.slug} rel="next">
                 {next.title}
               </Styled.a>

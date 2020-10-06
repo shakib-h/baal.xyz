@@ -5,7 +5,7 @@ import { darken } from "@theme-ui/color"
 
 export default merge(BaseTheme, {
   colors: {
-    primary: "#e6da00",
+    primary: "#80d8ff",
     secondary: "#9933CC",
     muted: "#ecf3f8",
     accent: "#ffffff",
@@ -30,11 +30,11 @@ export default merge(BaseTheme, {
         background: baseColors.gray[9],
         text: baseColors.gray[1],
         textGray: "#9f9f9f",
-        primary: "#e6da00",
+        primary: "#80d8ff",
         secondary: "#9933CC",
         muted: "#1a2431",
         accent: "#363636",
-        link: "#e6da00",
+        link: "#80d8ff",
         header: {
           background: "transparent",
           text: baseColors.gray[1],
