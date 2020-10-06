@@ -10,21 +10,23 @@ collections:
   - name: post
     label: Post
     folder: content/posts
+    slug: {{url}}
     create: true
     extension: mdx
     format: frontmatter
     fields:
-      - { name: title, label: Title }
-      - { name: subTitle, label: Sub Title }
-      - { name: date, label: Date, widget: date }
-      - { name: author, label: Author }
-      - { name: authorLink, label: Author Link }
-      - { name: categories, label: Categories, widget: list }
-      - { name: featuredImage, label: Featured Image, widget: image }
+      - { name: title, label: Title, required: true }
+      - { name: subTitle, label: Sub Title, required: true }
+      - { name: url, label: URL, required: true,pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$','A slug can have no spaces or special characters'] }
+      - { name: date, label: Date, widget: date, required: true }
+      - { name: author, label: Author, required: true }
+      - { name: authorLink, label: Author Link, required: true }
+      - { name: categories, label: Categories, widget: list, required: true }
+      - { name: featuredImage, label: Featured Image, widget: image, required: true }
       - { name: featuredImageCaption, label: Featured Image Caption }
       - { name: socialImage, label: Social Image, widget: image }
       - { name: draft, label: Draft, widget: boolean, default: true }
-      - { name: body, label: Body, widget: markdown }
+      - { name: body, label: Body, widget: markdown, required: true }
       
   - name: page
     label: Page
