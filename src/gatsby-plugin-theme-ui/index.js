@@ -143,6 +143,7 @@ export default merge(BaseTheme, {
     },
     postListPageTitle: {
       textAlign: "center",
+      letterSpacing: "normal",
       maxWidth: "maxPageWidth",
       mx: "auto",
       px: 3,

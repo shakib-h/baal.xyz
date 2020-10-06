@@ -6,16 +6,6 @@ module.exports = {
         author: `বালের অ্যাডমিন`,
         siteUrl: `https://baal.xyz`, //Change to you site address, required for sitemap.xml and robots.txt file among other things
         menuLinks: [{
-                name: `বালের সম্পর্কে`,
-                link: `/about`,
-                type: `internal`, //internal or anchor
-            },
-            {
-                name: `কি জানি বাল`,
-                link: `/work`,
-                type: `internal`, //internal or anchor
-            },
-            {
                 name: `বালের যোগাযোগ`,
                 link: `/contact`,
                 type: `internal`, //internal or anchor
@@ -65,7 +55,7 @@ module.exports = {
                 background_color: `#363636`,
                 theme_color: `#80d8ff`,
                 display: `minimal-ui`,
-                icon: `content/assets/site-icon.png`, // This path is relative to the root of the site.
+                icon: `content/assets/catalyst-site-icon.png`, // This path is relative to the root of the site.
             },
         },
         {
