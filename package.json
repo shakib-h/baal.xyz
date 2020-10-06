@@ -11,6 +11,7 @@
         "gatsby-plugin-netlify-cms": "^4.3.15",
         "gatsby-theme-catalyst-helium": "^2.2.3",
         "netlify-cms-app": "^2.12.25",
+        "number-to-bengali": "^1.1.0",
         "react": "^16.13.1",
         "react-dom": "^16.13.1"
     },

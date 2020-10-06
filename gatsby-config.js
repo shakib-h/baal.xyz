@@ -48,7 +48,7 @@ module.exports = {
                 // Core theme
                 displaySiteLogo: false,
                 displaySiteLogoMobile: false,
-                footerContentLocation: "right",
+                footerContentLocation: "center",
                 remarkImagesWidth: 1920,
                 // Blog theme
                 excerptLength: 200,
@@ -71,7 +71,7 @@ module.exports = {
         {
             resolve: `gatsby-theme-catalyst-blog`,
             options: {
-                postListTitle: `হোমপেজ`,
+                postListTitle: `বালের পোস্ট`,
             },
         },
     ],
