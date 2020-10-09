@@ -16,7 +16,7 @@ const PostsList = ({ posts }) => {
   const { useHero } = useHeliumConfig()
   return (
     <Layout>
-      <SEO title="একটি বালের ওয়েবসাইট" />
+      <SEO title="বালছাল পোস্টে পরিপূর্ণ একমাত্র ব্লগ" />
       {useHero && <Hero />}
       <div
         sx={{
