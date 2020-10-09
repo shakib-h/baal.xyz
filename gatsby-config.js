@@ -6,10 +6,16 @@ module.exports = {
         author: `বালের অ্যাডমিন`,
         siteUrl: `https://baal.xyz`, //Change to you site address, required for sitemap.xml and robots.txt file among other things
         menuLinks: [{
-            name: `বালের যোগাযোগ`,
-            link: `/contact`,
-            type: `internal`, //internal or anchor
-        }, ],
+                name: `বালের ব্লগে লিখুন`,
+                link: `/write-here`,
+                type: `internal`, //internal or anchor
+            },
+            {
+                name: `বালের যোগাযোগ`,
+                link: `/contact`,
+                type: `internal`, //internal or anchor
+            },
+        ],
         socialLinks: [{
                 name: `Email`,
                 link: `ki@baal.xyz`,
