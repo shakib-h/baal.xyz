@@ -6,11 +6,10 @@ module.exports = {
         author: `বালের অ্যাডমিন`,
         siteUrl: `https://baal.xyz`, //Change to you site address, required for sitemap.xml and robots.txt file among other things
         menuLinks: [{
-                name: `বালের যোগাযোগ`,
-                link: `/contact`,
-                type: `internal`, //internal or anchor
-            },
-        ],
+            name: `বালের যোগাযোগ`,
+            link: `/contact`,
+            type: `internal`, //internal or anchor
+        }, ],
         socialLinks: [{
                 name: `Email`,
                 link: `ki@baal.xyz`,
@@ -57,8 +56,8 @@ module.exports = {
                 name: `বালের ব্লগ`,
                 short_name: `বালের ব্লগ`,
                 start_url: `/`,
-                background_color: `#363636`,
-                theme_color: `#80d8ff`,
+                background_color: `#FFEB3B`,
+                theme_color: `#363636`,
                 display: `minimal-ui`,
                 icon: `content/assets/catalyst-site-icon.png`, // This path is relative to the root of the site.
             },
