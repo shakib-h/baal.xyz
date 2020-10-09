@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
         title: `বালের ব্লগ`,
-        description: `এক কথায় এটি একটি বালের ওয়েবসাইট.`,
-        keywords: [`বাল`, `ব্লগ`, `বালের ব্লগ`, `বালছাল`],
+        description: `বিভিন্ন বালছাল, ট্রেন্ডিং বিষয়, হাবিজাবি ব্যাপারে এক্সপার্ট ব্যক্তিদের লিখালিখির স্থান`,
+        keywords: [`বাল`, `ব্লগ`, `বালের ব্লগ`, `বালছাল`, `ট্রেন্ডিং`, `হাবিজাবি`, `হযবরল`],
         author: `বালের অ্যাডমিন`,
         siteUrl: `https://baal.xyz`, //Change to you site address, required for sitemap.xml and robots.txt file among other things
         menuLinks: [{
