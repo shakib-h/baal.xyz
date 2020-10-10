@@ -54,6 +54,7 @@ module.exports = {
                 excerptLength: 200,
                 // Helium
                 useHero: true,
+                useStickyHeader: true,
             },
         },
         {
