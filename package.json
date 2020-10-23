@@ -7,6 +7,7 @@
     "dependencies": {
         "gatsby": "^2.24.67",
         "gatsby-cli": "^2.12.102",
+        "gatsby-plugin-gtag": "^1.0.13",
         "gatsby-plugin-netlify": "^2.3.16",
         "gatsby-plugin-netlify-cms": "^4.3.15",
         "gatsby-theme-catalyst-helium": "^2.2.3",
