@@ -71,7 +71,7 @@ const Hero = () => {
               color: baseColors.gray[8],
             }}
           >
-            <br></br>
+            বাল
           </Styled.p>
           <Button
             as={Link}
