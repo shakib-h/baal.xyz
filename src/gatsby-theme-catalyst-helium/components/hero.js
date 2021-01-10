@@ -71,8 +71,7 @@ const Hero = () => {
               color: baseColors.gray[8],
             }}
           >
-            কি আর হবে এতো ভেবে <b>বাল</b>?<br></br>
-            আজ আছি তো থাকবো না কাল।
+            <br></br>
           </Styled.p>
           <Button
             as={Link}
